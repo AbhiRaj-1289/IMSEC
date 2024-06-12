@@ -1,0 +1,51 @@
+class Customer 
+{
+    int amount = 1000;
+
+    synchronized void withdraw(int amount) 
+    {
+        System.out.println("going to withdraw");
+        if (this.amount < amount) 
+        {
+            System.out.println("Less balance, waiting to deposit!");
+            try {
+                wait();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        this.amount -= amount;
+        System.out.println("withdraw completed");
+    }
+
+    synchronized void deposit(int amount) 
+    {
+        System.out.println("going to deposit...");
+        this.amount += amount;
+        System.out.println("deposit completed..");
+        notify();
+    }
+}
+
+class ITC 
+{
+    public static void main(String[] args) 
+    {
+        final Customer c = new Customer();
+
+        new Thread(new Runnable() 
+        {
+            public void run() {
+                c.withdraw(15000);
+            }
+        }).start();
+
+        new Thread(new Runnable() 
+        {
+            public void run() 
+            {
+                c.deposit(10000);
+            }
+        }).start();
+    }
+}

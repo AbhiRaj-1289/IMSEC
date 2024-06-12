@@ -1,20 +1,25 @@
-public class Largest {
+import java.util.Scanner;
+public class Largest
+{
+    public static void main(String[] args) 
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter Three values : ");
+        int a = input.nextInt();
+        int b = input.nextInt();
+        int c = input.nextInt();
 
-    public static void main(String[] args) {
-
-        double n1 = -4.5, n2 = 3.9, n3 = 5.5;
-
-        if(n1 >= n2) 
+        if(a > b && a > c) 
         {
-            if(n1 >= n3)
-                System.out.println(n1 + " is the largest number.");
-            else
-                System.out.println(n3 + " is the largest number.");
-        } else {
-            if(n2 >= n3)
-                System.out.println(n2 + " is the largest number.");
-            else
-                System.out.println(n3 + " is the largest number.");
+            System.out.println("Greatest = "+b);
+        }
+        else if(b > c && b > a)
+        {
+            System.out.println("Greatest = "+b);
+        }
+        else
+        {
+            System.out.println("Greatest = "+c);
         }
     }
 }

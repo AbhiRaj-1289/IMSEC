@@ -14,8 +14,14 @@ class B extends A
 
 public class MultilevelInheritance extends B 
 {
-    public class C {
-        public void Hello() {
+    void sum()
+    {
+        
+    }
+    public class C 
+    {
+        public void Hello() 
+        {
             System.out.println("This Is Nested Child C class");
         }
 
