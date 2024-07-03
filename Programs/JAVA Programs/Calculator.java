@@ -124,7 +124,8 @@ class Calculator extends JFrame implements ActionListener
         if (e.getSource() == equal_bt) 
         {
             num2 = Double.parseDouble(jtf.getText());
-            switch (operator) {
+            switch (operator) 
+            {
                 case "+":
                     result = num1 + num2;
                     break;
@@ -148,7 +149,8 @@ class Calculator extends JFrame implements ActionListener
         if (e.getSource() == del_bt) 
         {
             String s = jtf.getText();
-            if (s.length() > 0) {
+            if (s.length() > 0) 
+            {
                 jtf.setText(s.substring(0, s.length() - 1));
             }
         }
@@ -159,3 +161,4 @@ class Calculator extends JFrame implements ActionListener
         new Calculator();
     }
 }
+//End Code
