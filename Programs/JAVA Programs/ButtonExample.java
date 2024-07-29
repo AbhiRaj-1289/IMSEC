@@ -22,5 +22,6 @@ public class ButtonExample {
         f.setSize(400, 400);
         f.setLayout(null);
         f.setVisible(true);
+        f.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 }
