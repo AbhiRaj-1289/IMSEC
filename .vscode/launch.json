@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AWTExample",
+            "request": "launch",
+            "mainClass": "AWTExample",
+            "projectName": "JAVA Programs"
+        },
+        {
+            "type": "java",
+            "name": "Sync",
+            "request": "launch",
+            "mainClass": "Sync",
+            "projectName": "JAVA Programs"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceExample",
+            "request": "launch",
+            "mainClass": "InterfaceExample",
+            "projectName": "JAVA Programs"
+        },
+        {
+            "type": "java",
+            "name": "ThreadExample",
+            "request": "launch",
+            "mainClass": "ThreadExample",
+            "projectName": "JAVA Programs"
+        },
+        {
+            "type": "java",
+            "name": "FileWriting",
+            "request": "launch",
+            "mainClass": "FileWriting",
+            "projectName": "IMSEC_8074e4d5"
+        },
+        {
+            "type": "java",
+            "name": "StaticExample2",
+            "request": "launch",
+            "mainClass": "StaticExample2",
+            "projectName": "IMSEC_8074e4d5"
+        },
+        {
+            "type": "java",
+            "name": "Count",
+            "request": "launch",
+            "mainClass": "Count",
+            "projectName": "IMSEC_8074e4d5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "JAVA Programs"
+        },
+        {
+            "type": "java",
+            "name": "Table2",
+            "request": "launch",
+            "mainClass": "Table2",
+            "projectName": "JAVA Programs"
+        },
+        {
+            "type": "java",
+            "name": "GCD",
+            "request": "launch",
+            "mainClass": "GCD",
+            "projectName": "IMSEC_8074e4d5"
+        },
+        {
+            "type": "java",
+            "name": "EvenOdd",
+            "request": "launch",
+            "mainClass": "EvenOdd",
+            "projectName": "IMSEC_8074e4d5"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Add",
+            "request": "launch",
+            "mainClass": "Add",
+            "projectName": "IMSEC_8074e4d5"
+        }
+    ]
+}
