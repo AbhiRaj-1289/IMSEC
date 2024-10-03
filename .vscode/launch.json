@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Chatbot",
+            "request": "launch",
+            "mainClass": "Chatbot",
+            "projectName": "JAVA Programs"
+        },
+        {
+            "type": "java",
             "name": "AWTExample",
             "request": "launch",
             "mainClass": "AWTExample",
